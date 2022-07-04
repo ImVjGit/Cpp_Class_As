@@ -61,7 +61,7 @@ public:
        cout << "\n Totoal sal->" << getsalary() ;
     }
 
-}; // Class Emp End
+}; // Class Employee End
 class Salesmanager : public employee
 {
 
