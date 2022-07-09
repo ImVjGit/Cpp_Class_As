@@ -2,14 +2,14 @@
 #include <stdio.h>
 #include <string.h>
 using namespace std;
-class employee
+class employee                      //class employee start 
 {
     int id;
     char name[20];
     double salary;
 
 public:
-    void setid(int a)
+    void setid(int a)               //setter 
     {
         this->id = a;
     }
@@ -22,7 +22,7 @@ public:
         this->salary = a;
     }
 
-    int getid()
+    int getid()                   //getter                                      
     {
         return this->id;
     }
@@ -34,14 +34,14 @@ public:
     {
         return this->salary;
     }
-    employee()
+    employee()                  //def const
     {
        
         this->id = 00;
         strcpy(this->name, "not given");
         this->salary = 000;
-    }
-    employee(int id, const char *nm, double salary)
+    }   
+    employee(int id, const char *nm, double salary)             //Para Const
     {
        
         this->id = id;
@@ -49,7 +49,7 @@ public:
         this->salary = salary;
     }
 
-    void display()
+    void display()                                              //Display Function 
     {
         cout << "\n name is : " << name;
         cout << "\n id is : " << id;
