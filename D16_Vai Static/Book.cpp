@@ -83,14 +83,14 @@ public:
         cout << "\n Author Name :  " << this->Author;
         cout << "\n Price :  " << this->price << ".00/-";
     }
-};
+};//class end Book
 
 int Book::count = 0;
 
 int main()
 {
     Book b1;
-    b1.display();
+    b1.display(); 
     cout << "\n";
     Book b2(1, 250, "Math", "AP Jadhav");
     b2.display();
